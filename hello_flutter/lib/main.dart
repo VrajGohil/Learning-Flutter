@@ -7,6 +7,7 @@ void main() {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Test App"),
+          centerTitle: true;
         ),
         body: HelloWorld(),
       ),
